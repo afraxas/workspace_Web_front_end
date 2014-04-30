@@ -1,0 +1,126 @@
+<!--Force IE6 into quirks mode with this comment tag-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dynamic Drive: CSS Left and Top Frames Layout</title>
+
+    <link href="layout_1_bootstrap.css" rel="stylesheet">
+    <link href="../src/css/bootstrap.min.css" rel="stylesheet">
+    <link href="non-responsive.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../src/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+
+        .nav-tabs>li.active>a {
+            -webkit-box-shadow: 0 -2px 0 #ff0000;
+            box-shadow: 0 -2px 0 #ff0000;
+        }
+    </style>
+
+    <script type="text/javascript">
+        /*** Temporary text filler function. Remove when deploying template. ***/
+        var gibberish=["This is just some filler text", "Welcome to Dynamic Drive CSS Library", "Demo content nothing to read here"]
+        function filltext(words){
+            for (var i=0; i<words; i++)
+                document.write(gibberish[Math.floor(Math.random()*3)]+" ")
+        }
+    </script>
+
+</head>
+
+<body>
+
+<div id="framecontentTop">
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            Action <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+        </ul>
+    </div>
+
+    <div class="innertube_framecontentTop">
+        <div class="center-block">...</div>
+
+        <div class="pull-right">
+            <span class="glyphicon glyphicon-cog"></span>
+        </div>
+
+    </div>
+</div>
+
+<div id="framecontentHeader">
+        framecontentHeaderframecontentHeaderframecontentHeaderframecontentHeaderframecontentHeaderframecontentHeaderframecontentHeader
+</div>
+
+
+<div id="framecontentLeft">
+    <div class="innertube">
+
+        <h3>Sample text here</h3>
+
+    </div>
+</div>
+
+
+
+<div id="maincontent">
+    <div class="innertube">
+<!--
+        <div class ="minTest">aaaaaaasasas</div>
+-->
+        <div class="center-block">centerssssssssssssssss</div>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Action <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+        <div class="pull-right">
+            <button type="button" class="btn btn-default btn-sm ">
+                <span class="glyphicon glyphicon-calendar"></span>
+            </button>
+        </div>
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Messages</a></li>
+        </ul>
+
+        <h1>Dynamic Drive CSS Library</h1>
+        <p><script type="text/javascript">filltext(255)</script></p>
+        <div>adfadfasdfasdf</div>
+        <div>adfadfasdfasdf</div>
+        <div>adfadfasdfasdf</div>
+        <div>adfadfasdfasdf</div>
+
+        <p style="text-align: center">Credits: <a href="http://www.dynamicdrive.com/style/">Dynamic Drive CSS Library</a></p>
+
+    </div>
+</div>
+
+<div id="framecontentBottom">
+ssss
+</div>
+
+</body>
+</html>

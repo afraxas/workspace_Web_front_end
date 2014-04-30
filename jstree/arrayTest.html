@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="./js/jquery-1.8.3.js"></script>
+    <script>
+        var SM ={};
+        SM.Map = function Map(key){
+
+            if(key === undefined){throw "key is undefined";}
+            var model = {};
+            var k = key;
+            return {
+                getArray: function (){
+                    //return selArray.slice();
+                    var temp = [];
+                    for(var i in model){
+                        temp.push(model[i]);
+                    }
+                    return temp;
+                },
+                getObj: function (){
+                    return $.extend({},model);
+                },
+                getKey: function (){
+                    var temp = [];
+                    for(var a in model){
+                        temp.push(a);
+                    }
+                    return temp;
+                },
+                getKeyByObj: function (){
+                    var temp = {};
+                    for(var a in model){
+                        temp[a] = {};
+                    }
+                    return temp;
+
+                },
+                put : function(data){
+                    if($.isArray(data)){
+                        for(var i = 0 , MAX = data.length ;i <MAX ;i++ ){
+                            model[data[i][k]] = data[i];
+                        }
+                    }else{
+                        model[data[id]] = data;
+                    }
+                },
+                remove : function (obj){
+                    if($.isArray(obj)){
+                        for(var i = 0 , MAX = obj.length ;i <MAX ;i++ ){
+                            delete model[obj[i]];
+                        }
+                    }else{
+                        delete model[obj];
+                    }
+                },
+                clear : function(){
+                    model = {};
+                }
+            }
+
+        }
+/*
+            var model = {};
+
+            return {
+                getArray: function (){
+                    //return selArray.slice();
+                    var temp = [];
+                    for(var i in model){
+                        temp.push(model[i]);
+                    }
+                    return temp;
+                },
+                getObj: function (){
+                    return $.extend({},model);
+                },
+                getKey: function (){
+                    var temp = [];
+                    for(var a in model){
+                        temp.push(a);
+                    }
+                    return temp;
+                },
+                getKeyByObj: function (){
+                    var temp = {};
+                    for(var a in model){
+                        temp[a] = {};
+                    }
+                    return temp;
+
+                },
+                put : function(data){
+                    if($.isArray(data)){
+                        for(var i = 0 , MAX = data.length ;i <MAX ;i++ ){
+                            selObj[data[i]["id"]] = data[i];
+                        }
+                    }else{
+                        selObj[data["id"]] = data;
+                    }
+                },
+                remove : function (obj){
+                    if($.isArray(obj)){
+                        for(var i = 0 , MAX = obj.length ;i <MAX ;i++ ){
+                            delete selObj[obj[i]];
+                        }
+                    }else{
+                        delete selObj[obj];
+                    }
+                },
+                clear : function(){
+                    selObj = {};
+                }
+            }*/
+    </script>
+</head>
+<body>
+
+</body>
+</html>

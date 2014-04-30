@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Bootstrap Plugin Test Suite</title>
+
+  <!-- jquery -->
+  <script src="vendor/jquery.js"></script>
+
+  <!-- qunit -->
+  <link rel="stylesheet" href="vendor/qunit.css" media="screen">
+  <script src="vendor/qunit.js"></script>
+  <script>
+    // See https://github.com/axemclion/grunt-saucelabs#test-result-details-with-qunit
+    QUnit.done(function(results) {
+      window.global_test_results = results
+    })
+  </script>
+
+  <!--  plugin sources -->
+  <script>$.support.transition = false</script>
+  <script src="../.js"></script>
+  <script src="../n.js"></script>
+  <script src="../sel.js"></script>
+  <script src="../pse.js"></script>
+  <script src="../own.js"></script>
+  <script src="../.js"></script>
+  <script src="../lspy.js"></script>
+  <script src="../s"></script>
+  <script src="../ip.js"></script>
+  <script src="../er.js"></script>
+  <script src="../.js"></script>
+
+  <!-- unit tests -->
+  <script src="unit/transition.js"></script>
+  <script src="unit/alert.js"></script>
+  <script src="unit/button.js"></script>
+  <script src="unit/carousel.js"></script>
+  <script src="unit/collapse.js"></script>
+  <script src="unit/dropdown.js"></script>
+  <script src="unit/modal.js"></script>
+  <script src="unit/scrollspy.js"></script>
+  <script src="unit/tab.js"></script>
+  <script src="unit/tooltip.js"></script>
+  <script src="unit/popover.js"></script>
+  <script src="unit/affix.js"></script>
+
+</head>
+<body>
+  <div>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+  </div>
+</body>
+</html>

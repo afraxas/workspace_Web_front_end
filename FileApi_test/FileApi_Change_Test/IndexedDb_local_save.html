@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drag &amp; Drop File Selection</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=10">
+    <style>
+        #fileDropBox {
+            width: 20em;
+            line-height: 10em;
+            border: 1px dashed gray;
+            text-align: center;
+            color: gray;
+            border-radius: 7px;
+    </style>
+</head>
+<body>
+<h1>HTML5 Drag and Drop File Selection</h1>
+<h3>Example 2</h3>
+<p>Using Windows Explorer (or similar), select one or more files (directories are not allowed), and then drag them to the below drop box:</p>
+<div id="fileDropBox">Drop files here.</div>
+<ul id="list"></ul>
+<script>
+    var message = [];
+
+    if (!window.FileReader) {
+        message = '<p>The ' +
+                '<a href="http://dev.w3.org/2006/webapi/FileAPI/" target="_blank">File API</a>s ' +
+                'are not fully supported by this browser.</p>' +
+                '<p>Upgrade your browser to the latest version.</p>';
+
+        document.querySelector('body').innerHTML = message;
+    }
+    else {
+        // Set up the file drag and drop listeners:         
+        document.getElementById('fileDropBox').addEventListener('dragover', handleDragOver, false);
+        document.getElementById('fileDropBox').addEventListener('drop', handleFileSelection, false);
+    }
+
+    function handleDragOver(evt) {
+        evt.stopPropagation();  // Do not allow the dragover event to bubble.
+        evt.preventDefault(); // Prevent default dragover event behavior.
+    } // handleDragOver()
+
+    function handleFileSelection(evt) {
+        evt.stopPropagation(); // Do not allow the drop event to bubble.
+        evt.preventDefault(); // Prevent default drop event behavior.
+
+        var files = evt.dataTransfer.files; // Grab the list of files dragged to the drop box.
+
+        if (!files) {
+            msa.alert("<p>At least one selected file is invalid - do not select any folders.</p><p>Please reselect and try again.</p>");
+            return;
+        }
+
+        // "files" is a FileList of file objects. List a few file object properties:    
+        var output = [];
+        for (var i = 0, f; i < files.length; i++) {
+            try {
+                f = files[i]; // If anything goes awry, the error would occur here.
+                output.push('<li><strong>',
+                        f.name, '</strong> (',
+                        f.type || 'unknown file type',
+                        ') - ',
+                        f.size, ' bytes, last modified: ',
+                        f.lastModifiedDate,
+                        '</li>');
+                document.getElementById('list').innerHTML = output.join('');
+            } // try
+            catch (fileError) {
+                msa.alert("<p>An unspecified file error occurred.</p><p>Selecting one or more folders will cause a file error.</p>");
+                console.log("The following error occurred at i = " + i + ": " + fileError); // Send the error object to the browser's debugger console window, if active.
+                return;
+            } // catch
+        } // for
+    } // handleFileSelection()
+</script>
+<script src="../utilities.js" type="text/javascript"></script> <!-- Provides the msa.alert() method. -->
+</body>
+</html>

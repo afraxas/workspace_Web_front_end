@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/jqueryui/1.10.2/redmond/jquery-ui-1.10.2.custom.min.css"/>
+    <style type="text/css">
+        .noTitleStuff .ui-dialog-titlebar {display:none}
+
+    </style>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $( "#dialog" ).dialog({
+
+                dialogClass: 'noTitleStuff',
+                resizable: true,
+//                height:140,
+                modal: true,
+                buttons: {
+                    "Delete all items": function() {
+                        $( this ).dialog( "close" );
+                    },
+                    Cancel: function() {
+                        $( this ).dialog( "close" );
+                    }
+                }
+            });
+
+        });
+    </script>
+</head>
+<body>
+<div id="dialog" title="Basic dialog">
+    <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $( "#dialog_headerFit" ).dialog({
+
+            resizable: true,
+//                height:140,
+            modal: true,
+            autoResize:true,
+            buttons: {
+                "Delete all items": function() {
+                    $( this ).dialog( "close" );
+                },
+                Cancel: function() {
+                    $( this ).dialog( "close" );
+                }
+            }
+        });
+
+    });
+</script>
+
+<div id="dialog_headerFit" title="Basic dialog">
+    <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+    <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+    <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+    <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+
+</div>
+
+
+</body>
+</html>

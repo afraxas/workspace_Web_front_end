@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Note there is no responsive meta tag here -->
+
+<!--
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+-->
+
+    <title>Non-responsive Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <style>
+        /*
+         * Globals
+         */
+
+        body {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: #555;
+        }
+
+        h1, .h1,
+        h2, .h2,
+        h3, .h3,
+        h4, .h4,
+        h5, .h5,
+        h6, .h6 {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+            font-weight: normal;
+            color: #333;
+            margin-top: 0;
+        }
+
+
+        /*
+         * Override Bootstrap's default container.
+         */
+
+        @media (min-width: 1200px) {
+            .container {
+                width: 970px;
+            }
+        }
+
+
+        /*
+         * Masthead for nav
+         */
+
+        .blog-masthead {
+            background-color: #428bca;
+            box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+        }
+
+        /* Nav links */
+        .blog-nav {
+
+        }
+        .blog-nav-item {
+            position: relative;
+            display: inline-block;
+            padding: 10px;
+            font-weight: 500;
+            color: #cdddeb;
+        }
+        .blog-nav-item:hover,
+        .blog-nav-item:focus {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Active state gets a caret at the bottom */
+        .blog-nav .active {
+            color: #fff;
+        }
+        .blog-nav .active:after {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            display: block;
+            content: " ";
+            width: 0;
+            height: 0;
+            margin-left: -5px;
+            vertical-align: middle;
+            border-right:  5px solid transparent;
+            border-left:   5px solid transparent;
+            border-bottom: 5px solid;
+        }
+
+
+        /*
+         * Blog name and description
+         */
+
+        .blog-header {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .blog-title {
+            margin-top: 30px;
+            margin-bottom: 0;
+            font-size: 60px;
+            font-weight: normal;
+        }
+        .blog-description {
+            font-size: 20px;
+            color: #999;
+        }
+
+
+        /*
+         * Main column and sidebar layout
+         */
+
+        .blog-main {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        /* Sidebar modules for boxing content */
+        .sidebar-module {
+            padding: 15px;
+            margin: 0 -15px 15px;
+        }
+        .sidebar-module-inset {
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+        }
+        .sidebar-module-inset p:last-child,
+        .sidebar-module-inset ul:last-child,
+        .sidebar-module-inset ol:last-child {
+            margin-bottom: 0;
+        }
+
+
+
+        /* Pagination */
+        .pager {
+            margin-bottom: 60px;
+            text-align: left;
+        }
+        .pager > li > a {
+            width: 140px;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 30px;
+        }
+
+
+        /*
+         * Blog posts
+         */
+
+        .blog-post {
+            margin-bottom: 60px;
+        }
+        .blog-post-title {
+            margin-bottom: 5px;
+            font-size: 40px;
+        }
+        .blog-post-meta {
+            margin-bottom: 20px;
+            color: #999;
+        }
+
+
+        /*
+         * Footer
+         */
+
+        .blog-footer {
+            padding: 40px 0;
+            color: #999;
+            text-align: center;
+            background-color: #f9f9f9;
+            border-top: 1px solid #e5e5e5;
+        }
+        #left-panel {
+            position: absolute;
+            top: 49px;
+            left: 0;
+            z-index: 1002;
+            background: #c2ff82;
+        }
+        #main {
+            display: block;
+            margin-left: 220px;
+            padding: 0;
+            height: auto;
+            background: #ffff00;
+        }
+    </style>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+<!--  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-left">
+                  <li><a href="#"><span class="glyphicon glyphicon-inbox btn-xs"></span></a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-folder-close btn-xs"></span></a></li>
+              </ul>
+          </div>
+      </div>
+  </div>-->
+  <div class="blog-masthead">
+      <div class="container">
+          <nav class="blog-nav">
+              <a class="blog-nav-item" href="#"><span class="glyphicon glyphicon-inbox btn-xs"></span></a>
+              <a class="blog-nav-item" href="#"><span class="glyphicon glyphicon-inbox btn-xs"></span></a>
+              <a class="blog-nav-item" href="#"><span class="glyphicon glyphicon-inbox btn-xs"></span></a>
+              <a class="blog-nav-item" href="#"><span class="glyphicon glyphicon-inbox btn-xs"></span></a>
+          </nav>
+      </div>
+  </div>
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+            <a class="blog-nav-item" href="#"><span class="glyphicon glyphicon-inbox btn-xs"></span></a>
+            <a class="blog-nav-item" href="#"><span class="glyphicon glyphicon-inbox btn-xs"></span></a>
+            <a class="blog-nav-item" href="#"><span class="glyphicon glyphicon-inbox btn-xs"></span></a>
+            <a class="blog-nav-item" href="#"><span class="glyphicon glyphicon-inbox btn-xs"></span></a>
+        </nav>
+    </div>
+</div>
+<aside id="left-panel" style="min-height: 1726px;">
+
+<!-- User info -->
+<div class="login-info">
+				<span> <!-- User image size is adjusted inside CSS, it should stay as it -->
+					<img src="img/avatars/sunny.png" alt="me" class="online">
+					<a href="javascript:void(0);" id="show-shortcut">
+                        john.doe <i class="fa fa-angle-down"></i>
+                    </a>
+				</span>
+</div>
+<!-- end user info -->
+
+<!-- NAVIGATION : This navigation is also responsive
+
+To make this navigation dynamic please make sure to link the node
+(the reference to the nav > ul) after page load. Or the navigation
+will not initialize.
+-->
+<nav>
+<!-- NOTE: Notice the gaps after each icon usage <i></i>..
+Please note that these links work a bit different than
+traditional href="" links. See documentation for details.
+-->
+
+<ul>
+<li class="active">
+    <a href="ajax/dashboard.html" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Dashboard</span></a>
+</li>
+<li>
+    <a href="ajax/inbox.html"><i class="fa fa-lg fa-fw fa-inbox"></i> <span class="menu-item-parent">Inbox</span><span class="badge pull-right inbox-badge">14</span></a>
+</li>
+<li>
+    <a href="#"><i class="fa fa-lg fa-fw fa-bar-chart-o"></i> <span class="menu-item-parent">Graphs</span><b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+    <ul>
+        <li>
+            <a href="ajax/flot.html">Flot Chart</a>
+        </li>
+        <li>
+            <a href="ajax/morris.html">Morris Charts</a>
+        </li>
+        <li>
+            <a href="ajax/inline-charts.html">Inline Charts</a>
+        </li>
+    </ul>
+</li>
+<li class="">
+    <a href="#"><i class="fa fa-lg fa-fw fa-table"></i> <span class="menu-item-parent">Tables</span><b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+    <ul style="display: none;">
+        <li>
+            <a href="ajax/table.html">Normal Tables</a>
+        </li>
+        <li>
+            <a href="ajax/datatables.html">Data Tables</a>
+        </li>
+    </ul>
+</li>
+<li>
+    <a href="#"><i class="fa fa-lg fa-fw fa-pencil-square-o"></i> <span class="menu-item-parent">Forms</span><b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+    <ul>
+        <li>
+            <a href="ajax/form-elements.html">Smart Form Elements</a>
+        </li>
+        <li>
+            <a href="ajax/form-templates.html">Smart Form Layouts</a>
+        </li>
+        <li>
+            <a href="ajax/validation.html">Smart Form Validation</a>
+        </li>
+        <li>
+            <a href="ajax/bootstrap-forms.html">Bootstrap Form Elements</a>
+        </li>
+        <li>
+            <a href="ajax/plugins.html">Form Plugins</a>
+        </li>
+        <li>
+            <a href="ajax/wizard.html">Wizards</a>
+        </li>
+        <li>
+            <a href="ajax/other-editors.html">Bootstrap Editors</a>
+        </li>
+        <li>
+            <a href="ajax/dropzone.html">Dropzone <span class="badge pull-right inbox-badge bg-color-yellow">new</span></a>
+        </li>
+    </ul>
+</li>
+<li>
+    <a href="#"><i class="fa fa-lg fa-fw fa-desktop"></i> <span class="menu-item-parent">UI Elements</span><b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+    <ul>
+        <li>
+            <a href="ajax/general-elements.html">General Elements</a>
+        </li>
+        <li>
+            <a href="ajax/buttons.html">Buttons</a>
+        </li>
+        <li>
+            <a href="#">Icons<b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+            <ul>
+                <li>
+                    <a href="ajax/fa.html"><i class="fa fa-plane"></i> Font Awesome</a>
+                </li>
+                <li>
+                    <a href="ajax/glyph.html"><i class="glyphicon glyphicon-plane"></i> Glyph Icons</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="ajax/grid.html">Grid</a>
+        </li>
+        <li>
+            <a href="ajax/treeview.html">Tree View</a>
+        </li>
+        <li>
+            <a href="ajax/nestable-list.html">Nestable Lists</a>
+        </li>
+        <li>
+            <a href="ajax/jqui.html">JQuery UI</a>
+        </li>
+    </ul>
+</li>
+<li>
+    <a href="#"><i class="fa fa-lg fa-fw fa-folder-open"></i> <span class="menu-item-parent">6 Level Navigation</span><b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+    <ul>
+        <li>
+            <a href="#"><i class="fa fa-fw fa-folder-open"></i> 2nd Level<b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+            <ul>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-folder-open"></i> 3ed Level <b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-folder-open"></i> 4th Level<b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-fw fa-folder-open"></i> 5th Level<b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#"><i class="fa fa-fw fa-folder-open"></i> Folder<b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+
+            <ul>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-folder-open"></i> 3ed Level <b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </li>
+    </ul>
+</li>
+<li>
+    <a href="ajax/calendar.html"><i class="fa fa-lg fa-fw fa-calendar"><em>3</em></i> <span class="menu-item-parent">Calendar</span></a>
+</li>
+<li>
+    <a href="ajax/widgets.html"><i class="fa fa-lg fa-fw fa-list-alt"></i> <span class="menu-item-parent">Widgets</span></a>
+</li>
+<li>
+    <a href="ajax/gallery.html"><i class="fa fa-lg fa-fw fa-picture-o"></i> <span class="menu-item-parent">Gallery</span></a>
+</li>
+<li>
+    <a href="ajax/gmap-xml.html"><i class="fa fa-lg fa-fw fa-map-marker"></i> <span class="menu-item-parent">Google Map Skins</span><span class="badge bg-color-greenLight pull-right inbox-badge">9</span></a>
+</li>
+<li>
+    <a href="#"><i class="fa fa-lg fa-fw fa-windows"></i> <span class="menu-item-parent">Miscellaneous</span><b class="collapse-sign"><em class="fa fa-expand-o"></em></b></a>
+    <ul>
+        <li>
+            <a href="ajax/typography.html">Typography</a>
+        </li>
+        <li>
+            <a href="ajax/pricing-table.html">Pricing Tables</a>
+        </li>
+        <li>
+            <a href="ajax/invoice.html">Invoice</a>
+        </li>
+        <li>
+            <a href="login.html" target="_top">Login</a>
+        </li>
+        <li>
+            <a href="register.html" target="_top">Register</a>
+        </li>
+        <li>
+            <a href="lock.html" target="_top">Locked Screen</a>
+        </li>
+        <li>
+            <a href="ajax/error404.html">Error 404</a>
+        </li>
+        <li>
+            <a href="ajax/error500.html">Error 500</a>
+        </li>
+        <li>
+            <a href="ajax/blank_.html">Blank Page</a>
+        </li>
+        <li>
+            <a href="ajax/email-template.html">Email Template</a>
+        </li>
+        <li>
+            <a href="ajax/search.html">Search Page</a>
+        </li>
+        <li>
+            <a href="ajax/ckeditor.html">CK Editor</a>
+        </li>
+    </ul>
+</li>
+</ul>
+</nav>
+<span class="minifyme" style=""> <i class="fa fa-arrow-circle-left hit"></i> </span>
+
+</aside>
+
+<div id="main" role="main">
+    asdfadsdfasddddddddddddd
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

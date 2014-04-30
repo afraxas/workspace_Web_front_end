@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/jqueryui/1.10.2/redmond/jquery-ui-1.10.2.custom.min.css"/>
+    <style type="text/css">
+        .clear {
+            clear: both;
+        }
+
+        #slide1{
+            position: absolute;
+            background: chartreuse;
+        }
+        #slide2{
+            position: absolute;
+        }
+
+    </style>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+    <script type="text/javascript">
+/*
+        function slide(){
+            var $div1 = $('#div1'),
+                    $div2 = $('#div2'),
+                    currentDiv = 'div1',
+                    $button = $('button');
+
+            $div2.hide();
+            $button.text('Toggle ' + currentDiv);
+
+            $(document).on('click', 'button', function (evt) {
+                $div1.toggle('slide', {direction: 'right'}, 'slow');
+                $div2.toggle('slide', {direction: 'left'}, 'slow');
+
+                currentDiv = (currentDiv === 'div1') ? 'div2' : 'div1';
+                $button.text('Toggle ' + currentDiv);
+            });
+            alert();
+            $div2.toggle('slide', {direction: 'left'}, 'slow');
+        }
+*/
+
+        $(document).ready(function() {
+           // slide();
+            var $slide2 = $('#slide2');
+            $slide2.hide();
+        });
+        function moveSlide(){
+            var $slide1 = $('#slide1'),
+                    $slide2 = $('#slide2');
+            $slide1.toggle('slide', {direction: 'left'}, 'slow');
+            $slide2.toggle('slide', {direction: 'right'}, 'slow');
+        }
+
+    </script>
+</head>
+<body>
+
+<input type="button" value="moveSlide" onclick="moveSlide()"/>
+<div >
+    <table id="slide1" border="1" width="100%">
+        <tr>
+            <td>slide1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td></td>
+        </tr>
+    </table>
+    <table id="slide2" border="1" width="100%">
+        <tr>
+            <td>slide2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td></td>
+        </tr>
+    </table>
+    <div class="clear"></div>
+</div>
+</body>
+</html>

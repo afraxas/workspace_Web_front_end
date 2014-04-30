@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="./css/jquery-ui-1.10.4.custom.css"/>
+    <link rel="stylesheet" href="./js/themes/default/style.min.css"/>
+
+    <script type="text/javascript" src="./js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="./js/jquery-ui-1.10.4.custom.js"></script>
+    <script type="text/javascript" src="./js/jstree.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            $.jstree.defaults.checkbox.keep_selected_style = false;
+
+            var json_data = [
+                {
+                    id: "10002",
+                    parent: "#",
+                    text: "aaaa"
+                },
+                {
+                    id: "10004",
+                    parent: "10002",
+                    text: "aaddaa"
+                },
+                {
+                    id: "10005",
+                    parent: "10004",
+                    text: "aaddaa"
+
+                },
+                {
+                    id: "10006",
+                    parent: "10002",
+                    text: "aaddaa"
+                }
+
+            ]
+            for(var i = 0 , MAX = 1000 ; i < MAX ; i++){
+                json_data.push({
+                    id: "10005"+i,
+                    parent: "10005",
+                    text: "aaddaa",
+                    state : {
+                        selected : true
+                    }
+                })
+
+            }
+            $('#domain').on("loaded.jstree", function (event, data) {
+
+            }).on("ready.jstree",function (event, data) {
+
+            }).on("hover_node.jstree",function (event, data) {
+            }).on("model.jstree",function (event, data) {
+            }).on("init.jstree",function (event, data) {
+            }).jstree({
+                'core': {
+                    'data': json_data
+                },
+                "plugins": [ "checkbox"]
+            }).on("select_node.jstree", function (event, data) {
+            });
+        });
+        function create(){
+            var temp = [
+                {
+                    id: "10002",
+                    parent: "#",
+                    text: "aaaa"
+                },
+                {
+                    id: "10004",
+                    parent: "10002",
+                    text: "aaddaa"
+                }
+            ]
+            $('#domain').jstree(true).create_node(temp);
+        }
+        function refresh_1000(){
+            var json_data = [
+                {
+                    id: "10002",
+                    parent: "#",
+                    text: "aaaa"
+                },
+                {
+                    id: "10004",
+                    parent: "10002",
+                    text: "aaddaa"
+                },
+                {
+                    id: "10005",
+                    parent: "10004",
+                    text: "aaddaa"
+
+                },
+                {
+                    id: "10006",
+                    parent: "10002",
+                    text: "aaddaa"
+                }
+
+            ]
+            for(var i = 0 , MAX = 1000 ; i < MAX ; i++){
+                json_data.push({
+                    id: "10005"+i,
+                    parent: "10005",
+                    text: "aaddaa",
+                    state : {
+                        selected : false
+                    }
+                })
+
+            }
+            $('#domain').jstree(true).settings.core.data =json_data
+            $('#domain').jstree(true).refresh();
+
+        }
+        function refresh(){
+            var temp = [
+                {
+                    id: "10002",
+                    parent: "#",
+                    text: "aaaa"
+                },
+                {
+                    id: "10004",
+                    parent: "10002",
+                    text: "aaddaa"
+                }
+            ]
+            $('#domain').jstree(true).settings.core.data =temp
+            $('#domain').jstree(true).refresh();
+        }
+        function rollback(){
+            var json_data = [
+                {
+                    id: "10002",
+                    parent: "#",
+                    text: "aaaa"
+                },
+                {
+                    id: "10004",
+                    parent: "10002",
+                    text: "aaddaa"
+                },
+                {
+                    id: "10005",
+                    parent: "10004",
+                    text: "aaddaa"
+                },
+                {
+                    id: "10006",
+                    parent: "10002",
+                    text: "11111111",
+                    state : {
+                        selected : true,
+                        opened : false
+                    }
+                }
+
+            ]
+            $('#domain').jstree(true).settings.core.data = json_data;
+            $('#domain').jstree(true).refresh();
+        }
+        function selected(){
+            $('#domain').jstree(true).select_node(["10005","10002"]);
+
+        }
+    </script>
+</head>
+<body>
+<div id="domain"></div>
+<input type="button" onclick="refresh_1000()" value="refresh 1000"/>
+
+<input type="button" onclick="create()" value="create"/>
+<input type="button" onclick="refresh()"/>
+<input type="button" onclick="rollback()" value="rollback"/>
+<input type="button" onclick="selected()"/>
+
+</body>
+</html>

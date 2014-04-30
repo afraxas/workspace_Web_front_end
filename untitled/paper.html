@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <link rel="stylesheet" href="css/jqueryui/1.10.3/custom/jquery-ui-1.10.3.custom.min.css"/>
+    <link rel="stylesheet" href="css/jqGrid/ui.jqgrid.css"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jqGrid/jQuery.jqGrid.fontAwesome4.css"/>
+
+    <style type="text/css">
+        .ui-jqgrid {
+            border-right-width: 0px;
+            border-left-width: 0px;
+        }
+
+        th.ui-th-column {
+            border-right-color: transparent !important
+        }
+
+        .ui-jqgrid-titlebar-close {
+            display: none !important
+        }
+
+        .ui-jqgrid .ui-widget-header {
+            border: 1px solid #0b3e6f !important;
+            /*
+                        background: #0b3e6f url(http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/dot-luv/images//ui-bg_diagonals-thick_15_0b3e6f_40x40.png) 50% 50% repeat-x;
+            */
+            background: dodgerblue;
+            color: #f6f6f6;
+        }
+
+        .ui-jqgrid-toppager {
+            background: #ffffff;
+        }
+
+    </style>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="js/jqueryui/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jqGrid/jquery.jqGrid-4.5.4.src.js"></script>
+    <script src="js/jqGrid/grid.locale-en.js"></script>
+    <script src="js/test/localMultiselect.js"></script>
+    <script src="js/jqGrid/jQuery.jqGrid.fontAwesome4.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var deGrid = "#list4";
+            // var rightGrid = "#list5";
+            $("button").button()
+            jqGridInit(deGrid);
+//            jqGridInit(rightGrid);
+
+        });
+        function jqGridInit(gridId) {
+            var mydata = [];
+            var $grid = jQuery(gridId);
+            for (var j = 1; j < 1000; j++) {
+                mydata.push({
+                    id: j,
+                    invdate: "2007-10" + j, name: "test", note: "note", amount: "200.00", tax: "10.00", total: "210.00"});
+            }
+            //mydata.push({invdate:"111",name:"test",note:"note",amount:"200.00",tax:"10.00",total:"210.00"});
+
+            $grid.jqGrid({
+                datatype: "local",
+                data: mydata,
+                loadonce: true,
+                scroll: 1,
+                rowNum: 100,
+                height: 300,
+                colNames: [
+                    'Inv No',
+                    'Date', 'Client', 'Amount', 'Tax', 'Total', 'Notes'],
+                colModel: [
+                    {name: 'id', index: 'id', width: 60, key: true},
+                    {name: 'invdate', index: 'invdate', width: 90 },
+                    {name: 'name', index: 'name', width: 100},
+                    {name: 'amount', index: 'amount', width: 80, align: "right"},
+                    {name: 'tax', index: 'tax', width: 80, align: "right"},
+                    {name: 'total', index: 'total', width: 80, align: "right"},
+                    {name: 'note', index: 'note', width: 150, sortable: false}
+                ],
+                multiselect: true,
+                localMultiselect: true,
+                hoverrows: false,
+                headertitles: false,
+//                multiselectWidth : 100,
+                caption: "테이블 Example",
+                pager: '#gridpager',
+                pgbuttons: true,
+                defaults: {
+                    recordtext: "View {0} - {1} of {2}",
+                    emptyrecords: "No records to view",
+                    loadtext: "Loading...",
+                    pgtext: "Page {0} of {1}"
+                },
+                viewrecords: true,
+                toppager: true,
+                onSelectAll: function () {
+                },
+                onSelectRow: function (rowid, status, e) {
+//                    console.log(rowid)
+//                    console.log(status)
+//                    console.log(e)
+                },
+                loadComplete: function () {
+                    //alert();
+                },
+                afterInsertRow: function (rowid, rowdata, rowelem) {
+                    //alert("afterInsertRow");
+                    //  console.log("rowid, rowdata , rowelem",rowid, rowdata , rowelem);
+                },
+                beforeProcessing: function () {
+                    console.log("beforeProcessing");
+                },
+                gridComplete: function () {
+                    console.log("gridComplete");
+                },
+                loadBeforeSend: function () {
+                    console.log("loadBeforeSend");
+                }
+            });
+            $grid.lmsInit();
+//            $grid.navButtonAdd('#pg_list4_toppager',{
+//                caption:"Add",
+//                buttonicon:"ui-icon-add",
+//                onClickButton: function(){
+//                    alert("Adding Row");
+//                },
+//                position:"last"
+//            });
+            $grid.jqGrid('navGrid', '#gridpager', {cloneToTop: true, search: false, refresh: false, add: false, del: false, edit: false, position: 'left'});
+
+            $("#gridpager").hide();
+            //'#' + $grid[0].id + '_toppager_left'
+            console.log($grid[0].id);
+            $grid.jqGrid('navButtonAdd', '#' + $grid[0].id + '_toppager', { // "#list_toppager_left"
+                caption: "설정",
+                buttonicon: 'fa fa-cogs fa-fw',
+                onClickButton: function () {
+                    $grid.jqGrid('columnChooser', {
+                        done: function (perm) {
+                            if (!perm) {
+                                return false;
+                            }
+                            this.jqGrid('remapColumns', perm, true);
+                        }
+                    });
+                }
+            });
+
+            /*
+             // remove some double elements from one place which we not need double
+             var topPagerDiv = $('#' + $grid[0].id + '_toppager')[0];         // "#list_toppager"
+             $("#edit_" + $grid[0].id + "_top", topPagerDiv).remove();        // "#edit_list_top"
+             $("#del_" + $grid[0].id + "_top", topPagerDiv).remove();         // "#del_list_top"
+             $("#search_" + $grid[0].id + "_top", topPagerDiv).remove();      // "#search_list_top"
+             $("#refresh_" + $grid[0].id + "_top", topPagerDiv).remove();     // "#refresh_list_top"
+             $("#" + $grid[0].id + "_toppager_center", topPagerDiv).remove(); // "#list_toppager_center"
+             $(".ui-paging-info", topPagerDiv).remove();
+
+             var bottomPagerDiv = $("div#pager")[0];
+             $("#add_" + $grid[0].id, bottomPagerDiv).remove();               // "#add_list"
+             */
+
+
+        }
+    </script>
+</head>
+<body>
+<input type="button" onclick="lmsGetSelarr()"/>
+
+<button>A button element</button>
+<TABLE id="list4"></TABLE>
+<div id="gridpager"></div>
+
+<!--
+<div id="gridpager"></div>
+<div id="gridpager"></div>
+-->
+
+<ul class="nav nav-pills nav-stacked">
+    <li class="active"><a href="#"><i class="fa fa-home fa-fw"></i> Home</a></li>
+    <li><a href="#"><i class="fa fa-book fa-fw"></i> Library</a></li>
+    <li><a href="#"><i class="fa fa-pencil fa-fw"></i> Applications</a></li>
+    <li><a href="#"><i class="fa fa-cogs fa-fw"></i> Settings</a></li>
+</ul>
+<ul>
+    <li><a href="">ASDFADF</a></li>
+    <li><a href="">ASDFADF</a></li>
+    <li><a href="">ASDFADF</a></li>
+    <li><a href="">ASDFADF</a></li>
+    <li><a href="">ASDFADF</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href="">ASDFADF</a></li>
+    <li><a href="">ASDFADF</a></li>
+    <li><a href="">ASDFADF</a></li>
+    <li><a href="">ASDFADF</a></li>
+    <li><a href="">ASDFADF</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+</ul>
+</body>
+<table>
+    <tr>
+        <td>
+            <sdfasdfa></sdfasdfa>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+
+</html>

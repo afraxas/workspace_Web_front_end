@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44dae110-4df3-46be-ad00-b17a6f29a14e" name="Default" comment="" />
+    <ignored path="workspace_Web_front_end.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="workspace_Web_front_end" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="jstree.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstree/jstree.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="1" selection-start="192" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="max.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/max.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="19" selection-start="192" selection-end="192" vertical-scroll-proportion="0.13863216" vertical-offset="105" max-vertical-offset="150255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrayTest.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstree/arrayTest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="34" selection-start="155" selection-end="1970" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1890">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sdasd.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstree/sdasd.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="750">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asdasd" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstree/asdasd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="11" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1260">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asdasd.XML" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstree/asdasd.XML">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="23" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1260">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jstree.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstree/js/jstree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5522" column="116" selection-start="187111" selection-end="187111" vertical-scroll-proportion="0.0" vertical-offset="82701" max-vertical-offset="88485">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-ui-1.10.4.custom.min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstree/css/jquery-ui-1.10.4.custom.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/untitled/jqGrid.html" />
+        <option value="$PROJECT_DIR$/untitled/jqGrid_tr_animate.html" />
+        <option value="$PROJECT_DIR$/untitled/asad.html" />
+        <option value="$PROJECT_DIR$/untitled/poicyInfo.html" />
+        <option value="$PROJECT_DIR$/untitled/aasa.html" />
+        <option value="$PROJECT_DIR$/untitled/sad.js" />
+        <option value="$PROJECT_DIR$/untitled/sdfsf.html" />
+        <option value="$PROJECT_DIR$/jstree/js/jstree.js" />
+        <option value="$PROJECT_DIR$/jstree/jstree.html" />
+        <option value="$PROJECT_DIR$/jstree/arrayTest.html" />
+        <option value="$PROJECT_DIR$/jstree/sdasd.html" />
+        <option value="$PROJECT_DIR$/jstree/asdasd" />
+        <option value="$PROJECT_DIR$/max.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="384" />
+    <option name="y" value="180" />
+    <option name="width" value="1152" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace_Web_front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace_Web_front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace_Web_front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace_Web_front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace_Web_front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jstree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace_Web_front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace_Web_front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jstree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace_Web_front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace_Web_front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jstree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_Web_front_end\jstree" />
+      <recent name="D:\workspace_Web_front_end\jstree\js" />
+      <recent name="D:\workspace_Web_front_end\jstree\css\jstree_images" />
+      <recent name="D:\workspace_Web_front_end\jstree\css" />
+      <recent name="D:\workspace_Web_front_end\untitled" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44dae110-4df3-46be-ad00-b17a6f29a14e" name="Default" comment="" />
+      <created>1395986537818</created>
+      <updated>1395986537818</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="384" y="180" width="1152" height="720" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14964789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid_tr_animate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.0" vertical-offset="1231" max-vertical-offset="2310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/asad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/poicyInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/empty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/sad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid_tr_animate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.0" vertical-offset="1231" max-vertical-offset="2310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/asad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/poicyInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/empty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid_tr_animate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.0" vertical-offset="1231" max-vertical-offset="2310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/asad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/poicyInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/aasa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/empty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid_tr_animate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.0" vertical-offset="1231" max-vertical-offset="2310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/asad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/poicyInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/aasa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="9" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/empty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid_tr_animate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.0" vertical-offset="1231" max-vertical-offset="2310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/asad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/poicyInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/aasa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="17" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/empty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid_tr_animate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.0" vertical-offset="1231" max-vertical-offset="2310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/asad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/poicyInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/aasa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="45" selection-start="1156" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/empty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid_tr_animate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.58998936" vertical-offset="1231" max-vertical-offset="2310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/asad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/empty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="963" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/aasa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="51" selection-start="788" selection-end="864" vertical-scroll-proportion="0.31948882" vertical-offset="0" max-vertical-offset="939" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/poicyInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="328" selection-end="328" vertical-scroll-proportion="0.33546326" vertical-offset="0" max-vertical-offset="939" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/sad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.110526316" vertical-offset="0" max-vertical-offset="950" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/jqGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="76" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/sdfsf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="37" selection-start="1560" selection-end="1560" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstree/js/jquery-ui-1.10.4.custom.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="45" selection-start="144612" selection-end="144612" vertical-scroll-proportion="0.047368422" vertical-offset="0" max-vertical-offset="950" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstree/js/jstree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5522" column="116" selection-start="187111" selection-end="187111" vertical-scroll-proportion="0.0" vertical-offset="82701" max-vertical-offset="88485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstree/css/jquery-ui-1.10.4.custom.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstree/arrayTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="34" selection-start="155" selection-end="1970" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstree/asdasd.XML">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="23" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstree/asdasd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="11" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstree/sdasd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstree/jstree.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="192" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="192" selection-end="192" vertical-scroll-proportion="0.13863216" vertical-offset="105" max-vertical-offset="150255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
